@@ -1,4 +1,4 @@
-const { src, dest, watch, parallel } = require('gulp'); // {} -> nos trae multiples funciones
+const { src, dest, watch } = require('gulp'); // {} -> nos trae multiples funciones
 
 
 // CSS

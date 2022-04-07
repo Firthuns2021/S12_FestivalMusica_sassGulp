@@ -405,11 +405,10 @@ img {
 .header h1 {
   color: #FFFFFF;
 }
-
-.navegacion-principal a {
+.header .navegacion-principal a {
   color: #FFFFFF;
   font-size: 2.4rem;
 }
-.navegacion-principal a:hover {
+.header .navegacion-principal a:hover {
   color: #FEF46D;
 }
