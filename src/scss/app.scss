@@ -1,0 +1,7 @@
+//@import 'base/variables'; // forma antigua de importar archivos
+//@import 'contenido/contenido'; // forma antigua de importar archivos
+// nueva sintaxis para leer otros archivos
+@use 'base';
+@use 'layout';
+
+
