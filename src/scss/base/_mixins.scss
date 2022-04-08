@@ -1,8 +1,9 @@
 @use 'variables' as v;
 
+
 @mixin telefono {
     @media (min-width: v.$telefono) {
-        @content;
+        @content; // acepta to.do el código que reciba
     }
 }
 
@@ -33,3 +34,4 @@
     padding:0;
     list-style: none;
 }
+
