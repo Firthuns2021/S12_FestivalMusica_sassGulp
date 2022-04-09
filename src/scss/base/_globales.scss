@@ -5,7 +5,7 @@ html {
     box-sizing: border-box;
     scroll-padding-top: 0rem;
 }
-*, 
+*,
 *:before,
 *:after {
     box-sizing: inherit;
@@ -15,10 +15,10 @@ body {
     font-size: 1.6rem;
 
     &.fijar-body {
-        overflow: hidden;
+        overflow: hidden;  // arreglos saltos de linea al realizar scroll y posicionar la barra menu fija
     }
     &.body-scroll {
-        padding-top: 8.6rem;
+        padding-top: 8.6rem; // arreglos saltos de linea al realizar scroll y posicionar la barra menu fija
     }
 }
 
